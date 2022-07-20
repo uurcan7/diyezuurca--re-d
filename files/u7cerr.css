@@ -1,0 +1,96 @@
+@charset "UTF-8";
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #ffc0cb;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+link {
+  color: #ffffff;
+}
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 45px;
+  padding-bottom: 3px;
+  text-shadow: 1px 1px 4px #000;
+}
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
+  padding-bottom: 3px;
+  text-shadow: 1px 1px 4px #000;
+}
+p {
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 3px;
+  text-shadow: 1px 1px 4px #000;
+}
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 998;
+  width: 100%;
+  height: 100%;
+  background: #ffc0cb url("https://www.diyezuurca.com/images/pl.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.errana {
+  position: fixed;
+  left: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+  margin: auto;
+}
+#errvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.btn {
+  box-shadow: none !important;
+  text-shadow: 1px 1px 4px #000;
+}
+.u7err,
+.u7err:disabled {
+  text-align: center;
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  box-shadow: none;
+  border-radius: 40px;
+  align-items: center;
+  align-content: center;
+  color: #ffffff !important;
+  font-size: 15px;
+  padding: 12px 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.u7err.disabled,
+.u7err:disabled {
+  opacity: 0.3 !important;
+}
+.u7err:hover {
+  background-color: rgba(255, 116, 140, 0.3) !important;
+  color: #ffc0cb !important;
+}
